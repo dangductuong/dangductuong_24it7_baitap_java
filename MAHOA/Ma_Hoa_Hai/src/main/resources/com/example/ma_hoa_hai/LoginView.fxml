@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.ma_hoa_hai.LoginController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Đăng nhập"/>
+    <TextField fx:id="usernameField" promptText="Tên đăng nhập"/>
+    <PasswordField fx:id="passwordField" promptText="Mật khẩu"/>
+
+    <HBox spacing="10">
+        <Label text="Thuật toán:"/>
+        <ComboBox fx:id="algorithmBox"/>
+    </HBox>
+
+    <Button text="Đăng nhập" onAction="#onLogin"/>
+    <TextArea fx:id="outputArea" editable="false" prefRowCount="4"/>
+</VBox>

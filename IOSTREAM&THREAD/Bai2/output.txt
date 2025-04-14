@@ -1,0 +1,2 @@
+Xin chào từ luồng 1!
+Chào mừng từ luồng 2!

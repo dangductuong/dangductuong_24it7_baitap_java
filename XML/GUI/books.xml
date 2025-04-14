@@ -1,0 +1,11 @@
+<library>
+  <book id='1'>
+    <title>toán</title>
+    <author>a</author>
+    <year>2020</year>
+    <publisher>13</publisher>
+    <pages>100</pages>
+    <genre>bài tập</genre>
+    <price>25000</price>
+  </book>
+</library>

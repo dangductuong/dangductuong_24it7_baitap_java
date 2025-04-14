@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.ma_hoa_ba.EncryptDecryptController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Dữ liệu gốc:"/>
+    <TextArea fx:id="inputArea" prefRowCount="3"/>
+
+    <HBox spacing="10">
+        <Button text="Mã hóa" onAction="#onEncrypt"/>
+        <Button text="Giải mã" onAction="#onDecrypt"/>
+    </HBox>
+
+    <Label text="Dữ liệu đã mã hóa:"/>
+    <TextArea fx:id="encryptedArea" editable="false" prefRowCount="3"/>
+
+    <Label text="Dữ liệu đã giải mã:"/>
+    <TextArea fx:id="decryptedArea" editable="false" prefRowCount="3"/>
+</VBox>
